@@ -18,10 +18,11 @@ This project suggests relevant courses from Analytics Vidhya based on the user's
 ## ⚙️ Installation
 
 ```bash
+# Clone the repo
 git clone https://github.com/ravi46931/analyticsvidhya-course-recommender.git
 cd analytics-vidhya-course-recommendation
 
-# Install uv
+# Install uv (high-performance Python package and environment manager )
 pip install uv
 
 # Set up virtual environment
@@ -41,3 +42,28 @@ uv pip install -e .
 # Scrape course data
 uv run src\scrap\scrap.py
 ```
+
+## 🔑 Environment Variables
+
+Set your `Groq API` key as an environment variable:
+
+```bash
+export GROQ_API_KEY=your_api_key_here
+```
+or 
+```bash
+set GROQ_API_KEY=your_api_key_here
+```
+
+## 🚀 Running the App
+
+```bash
+uv run app.py
+```
+Then open the app in your browser and ask your question to get course recommendations!
+
+## 🎥 Demo
+![User Input & Its response](ui.png)
+
+## 👤 Author
+- Ravi Kumar

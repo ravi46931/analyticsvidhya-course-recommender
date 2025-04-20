@@ -1,7 +1,7 @@
 [project]
 name = "course-reco-analytics-vidhya"
 version = "0.1.0"
-description = "Add your description here"
+description = "Suggest courses based on the user query"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
