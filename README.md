@@ -17,7 +17,7 @@ This project suggests relevant courses from Analytics Vidhya based on the user's
 
 ## ⚙️ Installation
 
-```
+```bash
 git clone https://github.com/ravi46931/analyticsvidhya-course-recommender.git
 cd analytics-vidhya-course-recommendation
 
@@ -26,9 +26,11 @@ pip install uv
 
 # Set up virtual environment
 uv venv
+
 # Activate virtual environment (adjust for your OS)
 # On Windows:
 .\.venv\Scripts\activate
+
 # On Unix or MacOS:
 source .venv/bin/activate
 
@@ -38,5 +40,4 @@ uv pip install -e .
 
 # Scrape course data
 uv run src\scrap\scrap.py
-
 ```
