@@ -1,0 +1,26 @@
+[project]
+name = "course-reco-analytics-vidhya"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "black>=25.1.0",
+    "colorama>=0.4.6",
+    "gradio>=5.25.2",
+    "groq>=0.22.0",
+    "numpy>=2.2.4",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+]
+
+[tool.setuptools]
+package-dir = {"" = "./"}
+
+[tool.setuptools.packages.find]
+where = ["./"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
